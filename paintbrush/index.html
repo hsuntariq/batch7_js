@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css    ">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Paint Brush</title>
+</head>
+<body>
+    <div class="container-fluid bg-info p-3">
+        <div class="d-flex gap-3 align-items-center">
+            <div class="colors d-flex">
+                <div class="color mx-4 bg-dark black"></div>
+                <div class="color mx-4 bg-danger red"></div>
+                <div class="color mx-4 bg-success green"></div>
+                <input type="color" class="form-control w-25 d-flex align-self-center" id="clr">
+            </div>
+            <div class="sizes ms-auto">
+                <div class="d-flex align-items-center">
+                    <div style="width: 20px;height: 20px;border-radius: 50%;" class="size mx-4 bg-dark"></div>
+                    <div style="width: 40px;height: 40px;border-radius: 50%;" class="size mx-4 bg-danger"></div>
+                    <div style="width: 60px;height: 60px;border-radius: 50%;" class="size mx-4 bg-success"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container area border border-info mt-5" style="height: 70vh;"></div>
+
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>

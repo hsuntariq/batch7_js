@@ -1,0 +1,25 @@
+.color{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.size{
+    cursor: pointer;
+}
+
+.area{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.paint{
+    border-radius: 50%;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
